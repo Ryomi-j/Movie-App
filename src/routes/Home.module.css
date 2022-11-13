@@ -1,0 +1,23 @@
+html {
+  background-color: rgb(33, 33, 33);
+}
+
+.frame {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 100px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  text-align: center;
+}

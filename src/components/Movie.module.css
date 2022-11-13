@@ -1,0 +1,29 @@
+.coverImg {
+  min-width: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.details {
+  display: none;
+  width: 300px;
+  margin: 0 auto;
+  padding: 14px;
+  box-sizing: border-box;
+  background-color: gainsboro;
+  border-radius: 10px;
+  list-style: none;
+  text-align: left;
+  justify-content: space-between;
+  position:absolute;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.poster:hover + .details {
+    display: block;
+}
