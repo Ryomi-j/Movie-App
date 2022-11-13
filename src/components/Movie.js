@@ -1,17 +1,14 @@
 import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
-import {useState} from "react"
+import { useState } from "react";
 import styles from "./Movie.module.css";
 
 function Movie({ id, coverImg, title, summary, genres }) {
-
-
-  
   return (
-    <div>
-      <div className={styles.poster}>
+    <div className={styles.content}>
+      <div className={styles.posters}>
         <NavLink to={`/movie/${id}`}>
-        <img className={styles.coverImg} src={coverImg} alt={title} />
+          <img className={styles.coverImg} src={coverImg} alt={title} />
         </NavLink>
       </div>
       <div className={styles.details}>
