@@ -7,7 +7,7 @@ a{
 }
 
 .frame {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   height: 100vh;
 }
@@ -25,3 +25,13 @@ h1 {
   gap: 1em;
   text-align: center;
 }
+/* 
+ * NOTE: 홈에서 화면 너비가 줄어들었을 때, 한 줄에 coverImg가 하나씩 보였으면 좋겠습니다.
+@media (max-width: 1200px) {
+  .title {
+    font-size: 2em;
+  }
+  .content {
+    display: flex;
+  }
+} */
