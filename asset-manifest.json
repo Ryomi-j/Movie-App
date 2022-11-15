@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/Nomad-Coder---Movie-App.git/static/js/main.2e869a42.js",
-    "index.html": "/Nomad-Coder---Movie-App.git/index.html",
-    "main.2e869a42.js.map": "/Nomad-Coder---Movie-App.git/static/js/main.2e869a42.js.map"
+    "main.css": "/Nomad-Coder---Movie-App/static/css/main.281baefd.css",
+    "main.js": "/Nomad-Coder---Movie-App/static/js/main.12747ac2.js",
+    "index.html": "/Nomad-Coder---Movie-App/index.html",
+    "main.281baefd.css.map": "/Nomad-Coder---Movie-App/static/css/main.281baefd.css.map",
+    "main.12747ac2.js.map": "/Nomad-Coder---Movie-App/static/js/main.12747ac2.js.map"
   },
   "entrypoints": [
-    "static/js/main.2e869a42.js"
+    "static/css/main.281baefd.css",
+    "static/js/main.12747ac2.js"
   ]
 }
