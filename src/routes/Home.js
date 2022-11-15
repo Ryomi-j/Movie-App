@@ -26,7 +26,7 @@ function Home() {
         <h1>Loading...</h1>
       ) : (
         <div className={styles.frame}>
-          <Link to={`/`}>
+          <Link to="/">
             <h1>Movie Top 20</h1>
           </Link>
           <div className={styles.content}>

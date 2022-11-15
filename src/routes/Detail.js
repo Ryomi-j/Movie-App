@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import styles from "./Details.module.css";
 
 function Detail() {
   const [movie, setMovie] = useState({});
@@ -10,11 +11,32 @@ function Detail() {
     ).json();
     return json;
   };
-  useEffect(async () => {
-    const movieData = await getMovie();
-    setMovie(movieData.data.movie);
-    console.log(movieData.data.movie);
+  useEffect(() => {
+    (async () => {
+      const movieData = await getMovie();
+      setMovie(movieData.data.movie);
+    })();
   }, []);
-  return <h1>Detail</h1>;
+  return (
+    <div className={styles.frame}>
+      <div>
+        <Link to="/">
+          <h2 className={styles.home}>Movie Top 20</h2>
+        </Link>
+        <h2 className={styles.title}>{movie.title_english}</h2>
+      </div>
+      <div className={styles.detail}>
+        <img className={styles.detailImg} src={movie.medium_cover_image} />
+        <div>
+          <p><span>Year</span> : {movie.year}</p>
+          <p><span>Rate</span> : {movie.rating}</p>
+          <p><span>Runtime</span> : {movie.runtime} minutes</p>
+          <p><span>Genre</span> : {movie.genres}</p>
+          <p><span>Language</span> : {movie.language}</p>
+          <p><span><a href={movie.url} target="blank">Detail Page ></a></span></p>
+        </div>
+      </div>
+    </div>
+  );
 }
 export default Detail;
