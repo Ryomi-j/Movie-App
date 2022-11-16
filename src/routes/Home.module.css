@@ -3,12 +3,11 @@
   src: url(../../public/fonts/Kanit-Bold.ttf);
 }
 
-
 html {
   background-color: rgb(33, 33, 33);
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -33,12 +32,11 @@ h1 {
   text-align: center;
 }
 
- /* * NOTE: 홈에서 화면 너비가 줄어들었을 때, 한 줄에 coverImg가 하나씩 보였으면 좋겠습니다. */
 @media (max-width: 1200px) {
-  .title {
+  h1 {
     font-size: 40px;
   }
-  
+
   .content {
     display: flex;
     flex-direction: column;

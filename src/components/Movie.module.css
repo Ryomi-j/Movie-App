@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Kanit-light";
-  src: url(../../public/fonts/Kanit-ExtraLight.ttf);
+  src: url(../../public/fonts/Kanit-Light.ttf);
 }
 
 .content {
@@ -64,10 +64,7 @@ ul {
 }
 
 @media (max-width: 1200px) {
-  p {
-    font-size: 0.6em;
-  }
-  .details {
+   .details {
     position: static;
   }
 }
