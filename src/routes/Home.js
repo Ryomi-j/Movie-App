@@ -27,7 +27,7 @@ function Home() {
       ) : (
         <div className={styles.frame}>
           <Link to="/">
-            <h1>Movie Top 20</h1>
+            <h1 className={styles.title}>Movie Top 20</h1>
           </Link>
           <div className={styles.content}>
             {movies.map((movie) => (
