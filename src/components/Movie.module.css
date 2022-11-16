@@ -1,5 +1,16 @@
+@font-face {
+  font-family: "Kanit-regular";
+  src: url(../../public/fonts/Kanit-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Kanit-light";
+  src: url(../../public/fonts/Kanit-Light.ttf);
+}
+
 .content {
-    position: relative;
+  position: relative;
+  font-family: "Kanit-light";
 }
 
 .coverImg {
@@ -24,12 +35,14 @@
 }
 
 h2 {
-    color: navy;
+  color: navy;
+  font-family: "Kanit-regular";
 }
 
 h3 {
   margin-bottom: 5px;
   color: navy;
+  font-family: "Kanit-regular";
 }
 
 ul {
@@ -48,4 +61,10 @@ ul {
 
 .displayNone {
   display: none;
+}
+
+@media (max-width: 1200px) {
+   .details {
+    position: static;
+  }
 }

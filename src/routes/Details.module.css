@@ -36,6 +36,7 @@ span {
 a {
   color: rgb(248, 215, 238);
 }
+
 a:hover {
   color: rgb(246, 246, 63);
 }
@@ -49,11 +50,13 @@ a:hover {
 
 @media (max-width: 1200px) {
   .title {
-    font-size: 2em;
+    font-size: 40px;
   }
+
   span {
     font-size: 1.2em;
   }
+  
   p {
     font-size: 0.6em;
   }
