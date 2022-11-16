@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Nomad-Coder---Movie-App/static/css/main.c8c7f237.css",
-    "main.js": "/Nomad-Coder---Movie-App/static/js/main.eb164542.js",
-    "static/media/Kanit-Bold.ttf": "/Nomad-Coder---Movie-App/static/media/Kanit-Bold.46cd98a815b9874526ad.ttf",
-    "static/media/Kanit-Regular.ttf": "/Nomad-Coder---Movie-App/static/media/Kanit-Regular.f3bae13d78ced30b6ea3.ttf",
-    "static/media/Kanit-Light.ttf": "/Nomad-Coder---Movie-App/static/media/Kanit-Light.7b6b95563f4c5697d973.ttf",
-    "index.html": "/Nomad-Coder---Movie-App/index.html",
-    "main.c8c7f237.css.map": "/Nomad-Coder---Movie-App/static/css/main.c8c7f237.css.map",
-    "main.eb164542.js.map": "/Nomad-Coder---Movie-App/static/js/main.eb164542.js.map"
+    "main.css": "/Movie-App/static/css/main.b7518ca6.css",
+    "main.js": "/Movie-App/static/js/main.c952c636.js",
+    "static/media/Kanit-Bold.ttf": "/Movie-App/static/media/Kanit-Bold.46cd98a815b9874526ad.ttf",
+    "static/media/Kanit-Regular.ttf": "/Movie-App/static/media/Kanit-Regular.f3bae13d78ced30b6ea3.ttf",
+    "static/media/Kanit-Light.ttf": "/Movie-App/static/media/Kanit-Light.7b6b95563f4c5697d973.ttf",
+    "index.html": "/Movie-App/index.html",
+    "main.b7518ca6.css.map": "/Movie-App/static/css/main.b7518ca6.css.map",
+    "main.c952c636.js.map": "/Movie-App/static/js/main.c952c636.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8c7f237.css",
-    "static/js/main.eb164542.js"
+    "static/css/main.b7518ca6.css",
+    "static/js/main.c952c636.js"
   ]
 }
