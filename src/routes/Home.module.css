@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Kanit-bold";
+  src: url(../../public/fonts/Kanit-Bold.ttf);
+}
+
+
 html {
   background-color: rgb(33, 33, 33);
 }
@@ -17,21 +23,24 @@ h1 {
   font-size: 100px;
   text-align: center;
   margin: 30px auto;
+  font-family: "Kanit-bold";
 }
 
 .content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1em;
+  gap: 16px;
   text-align: center;
 }
-/* 
- * NOTE: 홈에서 화면 너비가 줄어들었을 때, 한 줄에 coverImg가 하나씩 보였으면 좋겠습니다.
+
+ /* * NOTE: 홈에서 화면 너비가 줄어들었을 때, 한 줄에 coverImg가 하나씩 보였으면 좋겠습니다. */
 @media (max-width: 1200px) {
   .title {
-    font-size: 2em;
+    font-size: 40px;
   }
+  
   .content {
     display: flex;
+    flex-direction: column;
   }
-} */
+}
